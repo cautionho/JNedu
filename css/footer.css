@@ -1,0 +1,98 @@
+/*网页尾部*/
+.footer{
+	width: 100%;
+	height:300px;
+	background: url(../img/dbg.png);
+	background-position: -280px 0px;
+}
+
+.footer>div{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+/*为左右两个div定位*/
+.f_left,.f_right{
+	margin: 50px auto;
+}
+
+/*左边部分的列表,图片和右边部分的图标列表的样式*/
+
+.f_left ul,.f_left img,.f_right ul{
+	margin: 30px 30px;
+	float: left;
+}
+
+/*尾部左边部分*/
+.f_left{
+	width: 44%;
+	height:200px;
+	float:left;
+	border-right: 2px solid rgba(235,235,235,0.3);
+}
+
+.f_left li{
+	font-size: 14px;
+	height: 35px;
+}
+
+.f_left p{
+	float: right;
+	margin-right: 90px;
+	margin-top: -40px;
+}
+
+.f_left a{
+	color: white;
+}
+
+/*第一个列表*/
+.f_left ul:first-of-type{
+	margin-left: 50px;
+}
+
+.f_left img{
+	margin-left: 70px;
+}
+
+/*尾部右边部分*/
+.f_right{
+	width: 55%;
+	height: 200px;
+	float:left;
+}
+
+.f_right ul{
+	margin-left: 20px;
+}
+
+.f_right ul li{
+	font-size: 14px;
+	color:white;
+	height: 30px;
+}
+
+.f_right ul li a{
+	color: white;
+}
+
+/*暨南大学logo*/
+.f_right>img:nth-of-type(1){
+	height: 80px;
+	float: left;
+	margin: 30px 50px;
+}
+
+/*微博微信按钮*/
+.f_right ul:nth-of-type(2){
+	margin-top: -20px;
+	margin-left: 150px;
+}
+.f_right ul:nth-of-type(2) li{
+	float: left;
+	width: 50px;
+}
+.f_right ul:nth-of-type(2) li img{
+	width: 40px;
+}

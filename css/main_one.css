@@ -1,0 +1,231 @@
+/*中部第一部分*/
+.main_one{
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+
+.main_one>div{
+	width: 1120px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+/*统一设置div样式*/
+.main_one>div>div{
+	position: relative;
+	top: 25px;
+}
+
+
+	/*新闻部分*/
+.news{
+	width: 350px;
+	height: 414px;
+	float: left;
+}
+
+.news a h2{
+	font-size: 20px;
+	font-weight: 500;
+	color:#005D6C;
+	margin-top: 10px;
+}
+
+.news img{
+	height: 189px;
+	width: 283px;
+	margin: 10px 25px;
+}
+
+.news a:nth-of-type(2){
+	display: block;
+	font-size: 16px;
+	color: #005D6C;
+	line-height: 24px;
+}
+
+.news p{
+	font-size: 12px;
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+
+	/*视频|时讯|进入新闻网*/
+.video{
+	width: 350px;
+	height: 414px;
+	float: left;
+	margin:0px 20px;
+}
+
+.video ul:first-of-type li{
+	font-size: 18px;
+	float: left;
+	width: 70px;
+	text-align: center;
+}
+
+.video ul:first-of-type li a{
+	color: rgb(145,169,197);
+	display: inline-block;
+	line-height: 13px;
+	margin-top:16px ;
+	width: 70px;
+	height: 18px;
+	border-right: 2px solid rgba(235,235,235,0.8);
+}
+
+.video ul:first-of-type li:last-of-type a{
+	width: 140px;
+	border-right: none;
+}
+
+.video ul:nth-of-type(2){
+	margin-top: 50px;
+}
+
+.video ul:nth-of-type(2) li{
+	margin-top: 24px;
+}
+
+.video ul:nth-of-type(2) li a{
+	color: #333;
+}
+
+.video ul li a:hover{
+	color:rgb(0,93,108);
+}
+
+
+	/*校园公告*/
+.gonggao{
+	width: 350px;
+	height: 414px;
+	float: left;
+	margin-left: 25px;
+}
+
+	/*公告中分出上下两个div,设置两个div的宽高*/
+.gonggao div{
+	width:350px;
+	height: 200px;
+	position: relative;
+}
+
+	/*上半部分导航*/
+.gonggao ul:first-of-type li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.gg_one ul:nth-of-type(1) li a{
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	border-right: 1px solid rgba(235,235,235,0.8);
+	margin-top: 10px;
+}
+
+.gg_one ul:nth-of-type(1) li a h2{
+	font-size: 20px;
+	font-weight: 500;
+	color:rgb(145,169,197);
+}
+
+.gg_one ul:nth-of-type(1) li:first-of-type a h2{
+	color:rgb(0,93,108);
+}
+
+.gg_one ul:first-of-type li:last-of-type a{
+	border-right: none;
+}
+
+.gg_one ul li a:hover h2{
+	color:rgb(0,93,108);
+}
+
+	/*公告下半部分导航*/
+.gg_two ul:first-of-type li a{
+	color:rgb(0,93,108);
+	display: inline-block;
+	width: 100px;
+	height: 18px;
+	margin-top: 12px;
+}
+
+	/*两个日期的背景图*/
+.gg_one img,.gg_two img{
+	width: 80px;
+	height: 70px;
+}
+
+	/*两个绿色图片中的日期*/
+.gg_one table tr:first-of-type td:nth-of-type(1) a,.gg_two table tr:first-of-type td:nth-of-type(1) a{
+	width: 80px;
+	display:inline-block;
+	color: #FFFFFF;
+	position: absolute;
+}
+	
+	/*两个表格中的第一行第一列中的第一个a标签样式
+	 即绿色图片中的上半部分a的的样式*/	
+.gg_one table tr:first-of-type td:nth-of-type(1) a:first-of-type,.gg_two table tr:first-of-type td:nth-of-type(1) a:first-of-type{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size:24px ;
+	left: 2px;
+	top: 40px;
+}
+	
+	/*两个表格中的第一行第一列中的第二个a标签样式
+	 即绿色图片中的下半部分a的样式*/
+.gg_one table tr:first-of-type td:nth-of-type(1) a:nth-of-type(2),.gg_two table tr:first-of-type td:nth-of-type(1) a:nth-of-type(2){
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	top: 85px;
+	left:2px;
+}
+
+/*图片右边第一行文字的样式*/
+.gg_one table td:nth-of-type(2) a,.gg_two table td:nth-of-type(2) a{
+	color:rgb(0,93,108);
+	font-size: 16px;
+	padding: 10px;
+}
+
+/*图片右边段落文字的样式*/
+.gg_one table tr:nth-of-type(2) a,.gg_two table tr:nth-of-type(2) a{
+	color:rgb(0,93,108);
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+/*图片下面的标题链接*/
+.gg_one ul:nth-of-type(2) li,.gg_two ul:nth-of-type(2) li{
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*图片下面的标题链接列表中奇数项的a链接字体颜色为绿色*/
+.gg_one ul:nth-of-type(2) li:nth-of-type(2n+1) a,.gg_two ul:nth-of-type(2) li:nth-of-type(2n+1) a{
+	color: rgb(0,93,108);
+}
+
+/*图片下面的标题链接列表中偶数项的a链接字体颜色为黑色*/
+.gg_one ul:nth-of-type(2) li:nth-of-type(2n) a,.gg_two ul:nth-of-type(2) li:nth-of-type(2n) a{
+	color: black;
+}
+
+

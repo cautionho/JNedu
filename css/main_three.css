@@ -1,0 +1,192 @@
+/*中部第三部分*/
+.main_three{
+	width: 100%;
+	height: 330px;
+	/*background: cadetblue;*/
+}
+
+.main_three>div{
+	width: 1180px;
+	height: 330px;
+	margin: 0 auto;
+	/*background: #ccc;*/
+}
+
+/*统一设置div样式和位置*/
+.main_three>div>div{
+	width: 375px;
+	height: 250px;
+	float: left;
+	margin-top:10px;
+}
+
+.me_middle{
+	margin: 0 20px;
+}
+
+/*左边校园专题样式*/
+.me_left{
+}
+
+.me_left a h2{
+	font-size: 20px;
+	font-weight: 500;
+	color:#005D6C;
+}
+
+.me_left img{
+	height: 220px;
+	margin-top: 10px;
+
+}
+
+.me_left img:hover{
+	box-shadow: 1px 1px 10px #dbdbdb;
+	cursor:pointer;
+}
+
+/*中间的div样式*/
+.me_middle img{
+	width: 150px;
+}
+
+.me_middle table{
+	margin: 35px auto;
+	background-image: url(../img/未标题-2.png);
+	background-repeat: no-repeat;
+}
+
+.me_middle table div{
+	width: 180px;
+	height: 101px;
+	position: relative;
+}
+
+/*给每一个div设定样式和hover的样式*/
+
+/*第一行第一列第一个div*/
+.me_middle table tr:first-of-type td:first-of-type div{
+	border-bottom: 2px solid #1E90FF;
+}
+
+/*第一行第一列第二个div*/
+.me_middle table tr:first-of-type td:nth-of-type(2) div{
+	border-bottom: 2px solid #fc1;
+}
+
+/*第二行第一个div*/
+.me_middle table tr:nth-of-type(2) td:first-of-type div{
+	border-bottom: 2px solid limegreen;
+}
+
+/*第二行第二个div*/
+.me_middle table tr:nth-of-type(2) td:last-of-type div{
+	border-bottom: 2px solid salmon;
+}
+
+/*为每一个div设置hover样式*/
+/*第一行第一列的div的hover样式*/
+.me_middle table tr:first-of-type td:first-of-type div:hover{
+	background-color: rgba(0,128,255,0.2);
+	cursor: pointer;
+}
+
+/*第一行第二列div的hover样式*/
+.me_middle table tr:first-of-type td:nth-of-type(2) div:hover{
+	background-color:rgba(255,127,39,0.2);
+	cursor: pointer;
+}
+
+/*第二行第一列div的hover样式*/
+.me_middle table tr:nth-of-type(2) td:first-of-type div:hover{
+	background-color: rgba(34,177,76,0.2);
+	cursor: pointer;
+}
+
+/*第二行第二列div的hover样式*/
+.me_middle table tr:nth-of-type(2) td:last-of-type div:hover{
+	background-color: rgba(255,0,0,0.2);
+	cursor: pointer;
+}
+
+/*div中的大括号图片样式*/
+.me_middle table div img{
+	width: 100px;
+	position: relative;
+	top: 28px;
+	left: 40px;
+}
+
+/*div中a链接的样式*/
+.me_middle table div a{
+	color: white;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	font-size: 14px;
+}
+
+/*第二列的div设置外边距*/
+.me_middle table tr td:nth-of-type(2) div{
+	margin-left: 10px;
+}
+
+/*右边部分*/
+
+/*设置阴影 边框 背景*/
+.me_right div{
+	width: 350px;
+	height: 200px;
+	margin: 35px auto;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #CCCCCC;
+	border-bottom: 3px solid #005D6C;
+	background: url(../img/zt_ship.png) no-repeat 200px 128px/120px;
+}
+
+/*a的样式*/
+.me_right div>ul li a{
+	color: #333;
+	display: inline-block;
+	width: 320px;
+	margin:5px 15px;
+}
+
+.me_right div>ul li a:hover{
+	color: orangered;
+}
+
+/*每个a链接后面加上>符号*/
+.me_right div>ul li a:after{
+	content: '›';
+	float: right;
+}
+
+/*常用链接部分*/
+.links{
+	margin: 50px;
+}
+
+.links li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+.links a{
+	color: #333;
+}
+
+.links a:hover{
+	color: #005D6C;
+}
+.links img{
+	width: 18px;
+}

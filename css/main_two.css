@@ -1,0 +1,179 @@
+/*主体第二部分*/
+.main_two{
+	width:100%;
+	height: 470px;
+	background: #F6FAFA;
+}
+
+
+/*左边部分div 设置背景*/
+.mt_left{
+	height: 470px;
+	width: 36%;
+	float: left;
+	background: url(../img/xiaoxun_left.png) no-repeat;
+	background-position: 0px 100px;
+	background-size: 220px;
+}
+
+/*右边部分div 设置背景*/
+.mt_right{
+	height: 470px;
+	width: 35%;
+	float: right;
+	background: url(../img/xiaoxun_right.png) no-repeat;
+	background-position: 250px 100px;
+	background-size: 220px;
+}
+
+
+/*标题样式*/
+.videoJNU a h2,.edu a h2{
+	font-size: 20px;
+	font-weight: 500;
+	color:#005D6C;
+	position: relative;
+	top: 12px;
+}
+
+
+/*主体第二部分的图片div*/
+.img{
+	margin-top: 24px;
+	background: #fff;
+	width:350px;
+	height: 230px;
+	clear: both;
+}
+
+.img img{
+	height: 180px;
+	width: 280px;
+	margin-left: 35px;
+}
+
+.img a h3{
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 20px;
+}
+
+.img a{
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	color:#005d6c ;
+	border-left: 4px solid rgba(247,176,58,0.9);
+}
+
+.img:hover{
+	box-shadow: 1px 1px 10px #dbdbdb;
+	cursor: pointer;
+}
+
+	/*小标题hover加粗*/
+.main_two li h3:hover{
+	font-weight: 600;
+}
+
+	/*小标题字体样式*/
+.main_two li h3{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+	/*小标题超链接样式*/
+.main_two li a{
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	color:#005d6c ;
+}
+	/*段落样式*/
+.main_two li p{
+	color: #000;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/*第一个第三个div图片下面文字的上边距*/
+.videoJNU ul,.person ul:nth-of-type(2){
+	margin-top: 20px;
+}
+
+
+/*左边部分 媒体暨大*/
+.videoJNU{
+	width:350px;
+	height:470px;
+	float: left;
+	left: 110px;
+	position: relative;
+}
+
+/*中间部分*/
+.mt_middle{
+	height: 470px;
+	width:350px;
+	float: left;
+	margin-left: 10px;
+	/*background: #FAEBD7;*/
+}
+
+.edu ul{
+	margin-top: 20px;
+}
+
+.mt_middle .img a{
+	border-left:4px solid dodgerblue;
+}
+
+/*右边部分*/
+/*div大小*/
+.person{
+	width: 350px;
+	height: 470px;
+	float: left;
+}
+
+/*导航*/
+.person ul:first-of-type{
+	height: 20px;
+}
+/*设置导航浮动*/
+.person ul:first-of-type li {
+	float:left;
+	text-align: center;
+	width: 70px;
+}
+
+/*设置导航中h2的样式*/
+.person ul:first-of-type li h2{
+	font-size: 20px;
+	font-weight: 500;
+	color:rgb(145,169,197);
+}
+
+/*导航中a的样式*/
+.person ul:first-of-type li a{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	border-right: 2px solid rgba(235,235,235,0.8);
+	margin-top: 10px;
+}
+
+.person ul:first-of-type li:first-of-type a h2{
+	color:rgb(0,93,108);
+}
+
+.person ul:first-of-type li a:hover h2{
+	color:rgb(0,93,108);
+}
+
+/*去除最后一个a链接的右边框*/
+.person ul:first-of-type li:last-of-type a{
+	border-right: none;
+}
+
